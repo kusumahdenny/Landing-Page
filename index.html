@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-works">How It Works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email" >Handcrafted, home-made masterpieces</label>
+      <input id="email" name="email" type="email" placeholder=" Enter your email address">
+      <input id="submit" type="submit" value="GET STARTED">
+    </form>
+    <section id="features">
+        <img class="icon" src="https://cdn.onlinewebfonts.com/svg/img_561220.png" alt="Premium Materials">
+        <div class="features-desc">
+          <h1>Premium Materials</h1>
+          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/45/45880.png" alt="Fast Shipping">
+        <div class="features-desc">
+          <h1>Fast Shipping</h1>
+          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/3002/3002389.png" alt="Quality Assurance">
+        <div class="features-desc">
+          <h1>Quality Assurance</h1>
+          <p>or every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+    </section>
+    <section id="how-it-works">
+      <!--<iframe width="480" height="270" src="https://www.youtube.com/watch?v=y8Yv4pnO7qc"></iframe>--> 
+      <iframe
+        id="video"
+        width="640"
+        height="360"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>  
+    </section>
+    <section id="pricing">
+        <div class="trombone">
+          <div class="trombone-type">TENOR TROMBONE</div>
+          <div class="trombone-price">$600</div>
+          <div class="trombone-description">
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+          </div>
+          <input class="button" type="submit" value="SELECT">
+        </div>
+        <div class="trombone">
+          <div class="trombone-type">BASS TROMBONE</div>
+          <div class="trombone-price">$900</div>
+          <div class="trombone-description">
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+          </div>
+          <input class="button" type="submit" value="SELECT">
+        </div>
+        <div class="trombone">
+          <div class="trombone-type">VALVE TROMBONE</div>
+          <div class="trombone-price">$1200</div>
+          <div class="trombone-description">
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+          </div>
+          <input class="button" type="submit" value="SELECT">
+        </div>
+    </section>
+    <footer>
+      <div class="footer-link">
+        <a href="">Privacy</a>
+        <a href="">Contact</a>
+        <a href="">Terms</a>
+      </div>
+      <p class="footer-copyright">Copyright 2016, Original Trombones</p>
+    </footer>
+  </body>
+</html>
